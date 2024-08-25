@@ -1,5 +1,5 @@
 # %%
-# !pip install datasets transformers bitsandbytes flash-attn peft
+# !pip install datasets transformers bitsandbytes peft
 
 # %%
 # from google.colab import drive
@@ -30,10 +30,10 @@ from transformers import (
     Trainer
 )
 
-# %%
 from dataclasses import dataclass
 import os
 
+# %%
 @dataclass
 class DataClass:
     MODEL_PATH = "Qwen/Qwen2-0.5B-Instruct"      # Qwen/Qwen2-0.5B
@@ -41,15 +41,19 @@ class DataClass:
     EPOCH = 3
     LORA_RANK = 2
     LORA_ALPHA = 2 * LORA_RANK
-    LORA_DROPOUT = 0.5
+    LORA_DROPOUT = 0.3
     LORA_MODULES = ["o_proj", "qjv_proj", "gate_up_proj"]
     LR = 5e-5
-    MODEL_SAVE_FOLDER = 'weights'
     DEVICE = 'cuda' if torch.cuda.is_available() else 'mps'
+    USE_LORA = True
+    MODEL_SAVE_FOLDER = os.path.join('weights', 'LORA' if USE_LORA else 'RegularFinetune')
+    
 
 # Macbook MPS
 if DataClass.DEVICE == 'mps':
     os.environ['PYTORCH_ENABLE_MPS_FALLBACK'] = '1'
+    # Optional: Turnning off tokenizer parallelism to avoid stuck
+    # os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # %%
 model_config = AutoConfig.from_pretrained(
@@ -78,11 +82,29 @@ model = AutoModelForCausalLM.from_pretrained(
     low_cpu_mem_usage=True,
     # load_in_8bit=True,
     # load_in_4bit=True,
-    attn_implementation='eager', #'flash_attention_2',
-    torch_dtype=torch.bfloat16, # NOTE: MPS does not support torch.bfloat16 finetuning
+    attn_implementation='eager', #NOTE: MPS does ont support 'flash_attention_2',
+    torch_dtype=torch.bfloat16,
     trust_remote_code=True,
     # quantization_config=quant_config
 )
+
+# %%
+if DataClass.USE_LORA:
+    print("Using LORA instead of full-finetuning")
+    # Freezing model weights
+    model.requires_grad = False
+
+    lora_config = LoraConfig(
+        r = DataClass.LORA_RANK,
+        lora_alpha = DataClass.LORA_ALPHA,
+        lora_dropout = DataClass.LORA_DROPOUT,
+        bias = "none",
+        target_modules = DataClass.LORA_MODULES,
+        task_type = TaskType.CAUSAL_LM
+    )
+
+    model = get_peft_model(model, lora_config)
+    model.print_trainable_parameters()
 
 # %%
 def inference(input_text):
@@ -172,7 +194,6 @@ train_dataset = train_dataset.map(batch_tokenizer, batched=True, remove_columns 
 test_dataset = test_dataset.map(prompt_formatter)
 test_dataset = test_dataset.map(batch_tokenizer, batched=True, remove_columns = [])
 
-
 # %%
 data_collator = DataCollatorForSeq2Seq(
     model = model,
@@ -198,7 +219,7 @@ training_args = TrainingArguments(
     save_steps=7182//8,
     push_to_hub=False,
     weight_decay=0.9,
-    report_to=[],
+    report_to=[]
 )
 
 # %%
