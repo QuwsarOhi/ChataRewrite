@@ -44,7 +44,7 @@ class DataClass:
     LORA_DROPOUT = 0.5
     LORA_MODULES = ["o_proj", "qjv_proj", "gate_up_proj"]
     LR = 5e-5
-    MODEL_SAVE_FOLDER = 'weights'
+    MODEL_SAVE_FOLDER = '/content/drive/MyDrive/weights'
     DEVICE = 'cuda' if torch.cuda.is_available() else 'mps'
 
 # Macbook MPS
