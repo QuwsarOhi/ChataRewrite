@@ -44,7 +44,7 @@ class DataClass:
     LORA_DROPOUT = 0.5
     LORA_MODULES = ["o_proj", "qjv_proj", "gate_up_proj"]
     LR = 5e-5
-    MODEL_SAVE_FOLDER = '/content/drive/MyDrive/weights'
+    MODEL_SAVE_FOLDER = 'weights'
     DEVICE = 'cuda' if torch.cuda.is_available() else 'mps'
 
 # Macbook MPS
@@ -172,6 +172,7 @@ train_dataset = train_dataset.map(batch_tokenizer, batched=True, remove_columns 
 test_dataset = test_dataset.map(prompt_formatter)
 test_dataset = test_dataset.map(batch_tokenizer, batched=True, remove_columns = [])
 
+
 # %%
 data_collator = DataCollatorForSeq2Seq(
     model = model,
@@ -197,7 +198,7 @@ training_args = TrainingArguments(
     save_steps=7182//8,
     push_to_hub=False,
     weight_decay=0.9,
-    report_to=[]
+    report_to=[],
 )
 
 # %%
