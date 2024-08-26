@@ -1,30 +1,21 @@
 # %%
-# !pip install datasets transformers bitsandbytes peft
-
-# %%
-# from google.colab import drive
-# drive.mount('/content/drive')
+# !pip install datasets transformers bitsandbytes peft evaluate
 
 # %%
 import torch
 import copy
-import datasets
+from datasets import load_dataset
 
 from peft import (
-    LoftQConfig,
     LoraConfig,
     TaskType,
-    get_peft_model,
-    PeftModel
+    get_peft_model
 )
 
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
     AutoConfig,
-    BitsAndBytesConfig,
-    StoppingCriteria,
-    StoppingCriteriaList,
     DataCollatorForSeq2Seq,
     TrainingArguments,
     Trainer
@@ -39,13 +30,15 @@ class DataClass:
     MODEL_PATH = "Qwen/Qwen2-0.5B-Instruct"      # Qwen/Qwen2-0.5B
     MAX_LENGTH = 96
     EPOCH = 3
-    LORA_RANK = 2
-    LORA_ALPHA = 2 * LORA_RANK
-    LORA_DROPOUT = 0.3
-    LORA_MODULES = ["o_proj", "qjv_proj", "gate_up_proj"]
+    LORA_RANK = 16
+    LORA_ALPHA = 4 * LORA_RANK
+    LORA_DROPOUT = 0.5
+    LORA_MODULES = ["q_proj", "k_proj", "v_proj", "o_proj",
+                    "gate_proj", "up_proj", "down_proj",
+                    "lm_head"]
     LR = 5e-5
     DEVICE = 'cuda' if torch.cuda.is_available() else 'mps'
-    USE_LORA = True
+    USE_LORA = False
     MODEL_SAVE_FOLDER = os.path.join('weights', 'LORA' if USE_LORA else 'RegularFinetune')
     
 
@@ -107,6 +100,10 @@ if DataClass.USE_LORA:
     model.print_trainable_parameters()
 
 # %%
+print("Model structure")
+print(model)
+
+# %%
 def inference(input_text):
     input_ids = tokenizer(input_text, return_tensors="pt")
     # print(input_ids.keys())
@@ -150,10 +147,8 @@ print(inference(text))
 print()
 
 # %%
-from datasets import load_dataset
-
-train_dataset = load_dataset("json", data_files="train.json")
-test_dataset = load_dataset("json", data_files="valid.json")
+train_dataset = load_dataset("json", data_files="dataset/train.json")
+test_dataset = load_dataset("json", data_files="dataset/valid.json")
 
 # %%
 print(train_dataset)
