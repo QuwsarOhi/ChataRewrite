@@ -1,0 +1,605 @@
+[
+  {
+    "input_ques": "What do petrologists no what do unstable isotope studies indicate?",
+    "output_pred": "What do unstable isotope studies indicate?",
+    "output_ground": "What do unstable isotope studies indicate?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the second level of territorial division in Poland no make that the basic unit of territorial division in Warsaw?",
+    "output_pred": "What is the basic unit of territorial division in Warsaw?",
+    "output_ground": "What is the basic unit of territorial division in Warsaw?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Juvenile platyctenids no wow Which genus lack tentacles and sheaths?",
+    "output_pred": "Which genus lack tentacles and sheaths?",
+    "output_ground": "Which genus lack tentacles and sheaths?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When a pathogen is met again scratch that I mean long-lived memory cells are capable of remembering previous encounters with what?",
+    "output_pred": "Long-lived memory cells are capable of remembering previous encounters with what?",
+    "output_ground": "Long-lived memory cells can remember previous encounters with what?",
+    "bleu": 0.4240125351805037
+  },
+  {
+    "input_ques": "What led to the Duke of Cumberland's rise to power as military advisor sorry no Newcastle's?",
+    "output_pred": "What led to Newcastle's rise to power as military advisor?",
+    "output_ground": "What led to Newcastle's rise to power as military advisor?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Did Julia Butterfly wait How long did Julia Butterfly Hill live near a nuclear-missile installation?",
+    "output_pred": "How long did Julia Butterfly Hill live near a nuclear-missile installation?",
+    "output_ground": "How long did Julia Butterfly Hill live near a nuclear-missile installation?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When was Frankfurt ranked as the 22nd most liveable city in the world, no sorry it was Warsaw?",
+    "output_pred": "When was Warsaw ranked as the 22nd most liveable city in the world?",
+    "output_ground": "When was Warsaw ranked as the 22nd most liveable city in the world?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the name of the number theory, or rather, the supposition that any number larger than 2 can be represented as the sum of two primes?",
+    "output_pred": "What is the name of the supposition that any number larger than 2 can be represented as the sum of two primes?",
+    "output_ground": "What is the name of the supposition that any number larger than 2 can be represented as the sum of two primes?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who represents instead how about which group sets the time agenda?",
+    "output_pred": "How about which group sets the time agenda?",
+    "output_ground": "Which group sets the time agenda?",
+    "bleu": 0.5873949094699213
+  },
+  {
+    "input_ques": "What geometric er when three forces act on a point particle, what happens?",
+    "output_pred": "When three forces act on a point particle, what happens?",
+    "output_ground": "When three forces act on a point particle, what happens?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What profession does Irena Bajerska no Zbigniew Marek have?",
+    "output_pred": "What profession does Zbigniew Marek have?",
+    "output_ground": "What profession does Zbigniew Marek have?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What type of wages does equipment for labor no the mechanization and automation lead to?",
+    "output_pred": "What type of wages does mechanization and automation lead to?",
+    "output_ground": "What type of wages does mechanization and automation lead to?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What type of impact or uh entrepreneurship leads to advancements in technology?",
+    "output_pred": "What type of entrepreneurship leads to advancements in technology?",
+    "output_ground": "What type of entrepreneurship leads to advancements in technology?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Why does What does the highest level of the Vistula plateau contain?",
+    "output_pred": "What does the highest level of the Vistula plateau contain?",
+    "output_ground": "What does the highest level of the Vistula plateau contain?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What percentage of Parisian residents died of the plague in 1361 no Venice residents?",
+    "output_pred": "What percentage of Venice residents died of the plague in 1361?",
+    "output_ground": "What percentage of Venice residents died of the plague in 1361?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the result of no no I mean what is the effect of beta decay?",
+    "output_pred": "What is the effect of beta decay?",
+    "output_ground": "What is the effect of beta decay?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What kind of organs do ctenophores or no make that do some sponges have?",
+    "output_pred": "What kind of organs do some sponges have?",
+    "output_ground": "What kind of organs do some sponges have?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How did the party overthrow the elected government in 1985 no i mean 1929?",
+    "output_pred": " How did the party overthrow the elected government in 1929?",
+    "output_ground": " How did the party overthrow the elected government in 1929?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How no sorry in what year did Fresno get its first pedestrian mall?",
+    "output_pred": "In what year did Fresno get its first pedestrian mall?",
+    "output_ground": "In what year did Fresno get its first pedestrian mall?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What are or actually who were the main detractors of the humoral theory of immunity?",
+    "output_pred": "Who were the main detractors of the humoral theory of immunity?",
+    "output_ground": "Who were the main detractors of the humoral theory of immunity?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which theorem, oh wait, what is one function that prime numbers have that 1 does not?",
+    "output_pred": "What is one function that prime numbers have that 1 does not?",
+    "output_ground": "What is one function that prime numbers have that 1 does not?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is a fundamental no is another function that primes have that the number 15 does not?",
+    "output_pred": "What is another function that primes have that the number 15 does not?",
+    "output_ground": "What is another function that primes have that the number 15 does not?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When was um no why do oceanic plates and mantle convection currents move in opposite directions?",
+    "output_pred": "Why do oceanic plates and mantle convection currents move in opposite directions?",
+    "output_ground": "Why do oceanic plates and mantle convection currents move in opposite directions?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Below what levels were the projected sea levels in the 2007 or no make that the 2001 IPCC projection?",
+    "output_pred": "Below what levels were the projected sea levels in the 2001 IPCC projection?",
+    "output_ground": "Below what levels were the projected sea levels in the 2001 IPCC projection?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who sets the work agenda and allocates time in the chamber no not this I want to know who disagrees with the timetable of business in the chamber?",
+    "output_pred": "Who disagrees with the timetable of business in the chamber?",
+    "output_ground": "Who disagrees with the timetable of business in the chamber?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which building was vacated three times to allow for the meeting of the General Assembly Hall or no rather of the Church's General Assembly?",
+    "output_pred": "What building was vacated three times to allow for the meeting of the Church's General Assembly?",
+    "output_ground": "Which building was vacated three times to allow for the meeting of the Church's General Assembly?",
+    "bleu": 0.9351334836242398
+  },
+  {
+    "input_ques": "What skills, no, what career does Joseph Stiglitz have?",
+    "output_pred": "What career does Joseph Stiglitz have?",
+    "output_ground": "What career does Joseph Stiglitz have?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is another name for State Route 41 or no 168?",
+    "output_pred": "What is another name for State Route 168?",
+    "output_ground": "What is another name for State Route 168?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What was written by Henry David Thoreau or sorry Ghandi in 1819? \",\" What was referenced err I mean written by Ghandi in 1819?",
+    "output_pred": "What was written by Ghandi in 1819?",
+    "output_ground": "What was written by Ghandi in 1819?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who deployed its army into Afghanistan in 1979 no sorry not Afghanistan but in Iraq?",
+    "output_pred": "Who deployed its army into Iraq in 1979?",
+    "output_ground": "Who deployed its army into Iraq in 1979?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What cells are the second arm of the innate immune system or rather Innate cells can act as mediators in the activation of what branch of the immune system?",
+    "output_pred": "Innate cells can act as mediators in the activation of what branch of the immune system?",
+    "output_ground": "Innate cells can act as mediators in the activation of what branch of the immune system?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What institution no um publication printed that the wealthiest 1% have more money than those in the bottom 99%?",
+    "output_pred": "What publication printed that the wealthiest 1% have more money than those in the bottom 99%?",
+    "output_ground": "What publication printed that the wealthiest 1% have more money than those in the bottom 99%?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the name of the park in Reedley er uh better Atascadero?",
+    "output_pred": "What is the name of the park in Atascadero?",
+    "output_ground": "What is the name of the park in Atascadero?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When was the settlement which would become Warsaw established no not that but when was the Masovian Duchy reincorporated into the Polish Crown?",
+    "output_pred": "When was the Masovian Duchy reincorporated into the Polish Crown?",
+    "output_ground": "When was the Masovian Duchy reincorporated into the Polish Crown?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "In what decade did the Des Moines College or no make that the U of C affiliate with numerous national colleges?",
+    "output_pred": "In what decade did the U of C affiliate with numerous national colleges?",
+    "output_ground": "In what decade did the U of C affiliate with numerous national colleges?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which percentage of households in Jacksonville have more than no sorry have only one person?",
+    "output_pred": "What percentage of households in Jacksonville have only one person?",
+    "output_ground": "What portion of households in Jacksonville have only one person?",
+    "bleu": 0.8070557274927981
+  },
+  {
+    "input_ques": "How much did the clergy no do estimations of the population during the plague vary?",
+    "output_pred": "How much do estimations of the population during the plague vary?",
+    "output_ground": "How much do estimations of the population during the plague vary?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "There's a tributary border between Switzerland and what other country formed by the Rhine no a rough?",
+    "output_pred": "There's a rough border between Switzerland and what other country formed by the Rhine?",
+    "output_ground": "There's a rough border between Switzerland and what other country formed by the Rhine?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which is or no make that what is not a form of immunological memory?",
+    "output_pred": "What is not a form of immunological memory?",
+    "output_ground": "What is not a form of immunological memory?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "In what month in 1347 no um 1349 did the second wave of the plague reach England?",
+    "output_pred": "In what month in 1349 did the second wave of the plague reach England?",
+    "output_ground": "In what month in 1349 did the second wave of the plague reach England?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How does no actually what increases entrepreneurship rates at the individual level?",
+    "output_pred": "What increases entrepreneurship rates at the individual level?",
+    "output_ground": "What increases entrepreneurship rates at the individual level?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What Chinese system did Mongols no the Kublai's government not compromise with?",
+    "output_pred": " What Chinese system did Kublai's government not compromise with?",
+    "output_ground": " What Chinese system did Kublai's government not compromise with?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How many avulsions have occurred in upland areas or actually just the past 6000 years?",
+    "output_pred": "How many avulsions have occurred in the past 6000 years?",
+    "output_ground": "How many avulsions have occurred in the past 6000 yeas?",
+    "bleu": 0.8070557274927981
+  },
+  {
+    "input_ques": "What question has not led to consequences uh alternatively criticism?",
+    "output_pred": "What question has not led to criticism?",
+    "output_ground": "What question has not led to criticism?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which is or no make that what is one general concept that applies to elements of commutative rings?",
+    "output_pred": "What is one general concept that applies to elements of commutative rings?",
+    "output_ground": "What is one general concept that applies to elements of commutative rings?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which or rather what probiotic flora is found in unpasteurized yogurt?",
+    "output_pred": "What probiotic flora is found in unpasteurized yogurt?",
+    "output_ground": "What probiotic flora is found in unpasteurized yogurt?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is  packet or uh Circuit Switching?",
+    "output_pred": "Circuit Switching is a type of what?",
+    "output_ground": "What is Circuit Switching? ",
+    "bleu": 0.0
+  },
+  {
+    "input_ques": "When is or actually tell me when did Warsaw become the capital of the Kingdom of Poland?",
+    "output_pred": "When did Warsaw become the capital of the Kingdom of Poland?",
+    "output_ground": "When did Warsaw become the capital of the Kingdom of Poland?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What occurs er what is the rarest cause of poor immune function in developing countries?",
+    "output_pred": "What is the rarest cause of poor immune function in developing countries?",
+    "output_ground": "What is the rarest cause of poor immune function in developing countries?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What can non-profit trusts and societies do no no wait What does poor academic achievement lead to according to critics?",
+    "output_pred": "What does poor academic achievement lead to according to critics?",
+    "output_ground": "What does poor academic achievement lead to according to critics?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What castle currently concerts er uh houses the Centre for Ujazdow Art?",
+    "output_pred": "What castle currently houses the Centre for Ujazdow Art?",
+    "output_ground": "What castle currently houses the Centre for Ujazdow Art?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What did the 2001 er uh 2007 IPCC report suggest had been decreasing?",
+    "output_pred": "What did the 2007 IPCC report suggest had been decreasing?",
+    "output_ground": "What did the 2007 IPCC report suggest had been decreasing? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Did Davies and Baran propose uh instead collaborate at any point after they both developed this concept?",
+    "output_pred": "Did Davies and Baran collaborate at any point after they both developed this concept?",
+    "output_ground": "Did Davies and Baran collaborate at any point after they both developed this concept?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which is or no rather what is another type of public key cryptography algorithm?",
+    "output_pred": "What is another type of public key cryptography algorithm?",
+    "output_ground": "What is another type of public key cryptography algorithm?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What state constitutional amendments make reference to the government funding private schools no no I mean religious schools?",
+    "output_pred": "What state constitutional amendments make reference to the government funding religious schools?",
+    "output_ground": "What state constitutional amendments make reference to the government funding religious schools?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What philosophy er what did Neoclassical economics view the inequality in the distribution of income as being from?",
+    "output_pred": "What did Neoclassical economics view the inequality in the distribution of income as being from?",
+    "output_ground": "What did Neoclassical economics view the inequality in the distribution of income as being from?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Why is the seating arrangement no no no the Second Minister, Scottish cabinet ministers and whom sit in the front row in the debating chamber?",
+    "output_pred": "The Second Minister, Scottish cabinet ministers and whom sit in the front row in the debating chamber?",
+    "output_ground": "The Second Minister, Scottish cabinet ministers and whom sit in the front row in the debating chamber?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Why is the Holocene not shown clearly on the first scale or uh timeline?",
+    "output_pred": "Why is the Holocene not shown clearly on the first scale or timeline?",
+    "output_ground": "Why is the Holocene not shown clearly on the first timeline?",
+    "bleu": 0.7272454093000141
+  },
+  {
+    "input_ques": "What tool do they use in private school to maintain discipline, oh sorry that was supposed to be public schools?",
+    "output_pred": "What tool do they use in public school to maintain discipline?",
+    "output_ground": "What tool do they use in public school to maintain discipline?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What did the ongoing Upper Rhine uh rather Alpine orogeny cause before the Eocene?",
+    "output_pred": "What did the ongoing Alpine orogeny cause before the Eocene?",
+    "output_ground": "What did the ongoing Alpine orogeny cause before the Eocene?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "In 2008 what was the total of Grants awarded from Harvard no uh 2009?",
+    "output_pred": "In 2009 what was the total of Grants awarded from Harvard?",
+    "output_ground": "In 2009 what was the total of Grants awarded from Harvard?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What has it now become possible let me rephrase what is now possible regarding dating isotopes while using fossils?",
+    "output_pred": "What is now possible regarding dating isotopes while using fossils?",
+    "output_ground": "What has it now become possible to do when dating isotopes while using fossils?",
+    "bleu": 0.35521547566060496
+  },
+  {
+    "input_ques": "Why is no why aren't the examples of bouregois architecture visible today?",
+    "output_pred": "Why aren't the examples of bouregois architecture visible today?",
+    "output_ground": "Why aren't the examples of bouregois architecture visible today?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "CSNet no no I meant Global internet was help funded by what foundation?",
+    "output_pred": "Global internet was help funded by what foundation?",
+    "output_ground": "Global internet was help funded by what foundation? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What photographer uh no comedian is also a university graduate?",
+    "output_pred": "What comedian is also a university graduate?",
+    "output_ground": "What comedian is also a university graduate? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Public and private funding led to what program no um development?",
+    "output_pred": "Public and private funding led to what development?",
+    "output_ground": "Public and private funding led to what development? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How did the black death make it to the Mediterranean and America oops I mean Europe?",
+    "output_pred": "How did the black death make it to Europe?",
+    "output_ground": "How did the black death make it to the Mediterranean and Europe?",
+    "bleu": 0.6153990645384644
+  },
+  {
+    "input_ques": "What collection no sorry I mean which University's library system has over 10 million volumes?",
+    "output_pred": "Which University's library system has over 10 million volumes?",
+    "output_ground": "Which University's library system has over 10 millionvolumes?",
+    "bleu": 0.6606328636027614
+  },
+  {
+    "input_ques": "What is the process by which the antigen/antibody complex is binding no I mean processed in to peptides?",
+    "output_pred": "What is the process by which the antigen/antibody complex is processed in to peptides?",
+    "output_ground": "What is the process by which the antigen/antibody complex is processed in to peptides?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What does civil disobedience require in Christian Bay's encyclopedia sorry no rebellion?",
+    "output_pred": "What does rebellion require in Christian Bay's encyclopedia?",
+    "output_ground": "What does rebellion require in Christian Bay's encyclopedia?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What type of network does ARPANET no make that SITA HLN not use?",
+    "output_pred": "What type of network does SITA HLN not use?",
+    "output_ground": "What type of network does SITA HLN not use?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What gets smaller when a number is global ummm prime?",
+    "output_pred": "What gets smaller when a number is prime?",
+    "output_ground": "What gets smaller when a number is prime?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "After which decade did Ludwig Mies van der Rohe excuse me I mean modern styles give way to Gothic styles on campus?",
+    "output_pred": "After which decade did modern styles give way to Gothic styles on campus?",
+    "output_ground": "After which decade did modern styles give way to Gothic styles on campus?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the name of one algebraic generalization that prime numbers no Goldbach's conjecture has inspired?",
+    "output_pred": "What is the name of one algebraic generalization Goldbach's conjecture has inspired?",
+    "output_ground": "What is the name of one algebraic generalization Goldbach's conjecture has inspired?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What period er how did the Rhine extend watershed southward?",
+    "output_pred": "How did the Rhine extend watershed southward?",
+    "output_ground": "How did the Rhine extend watershed southward? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What response er like system gives an organism long lasting immunity against a pathogen?",
+    "output_pred": "What system gives an organism long lasting immunity against a pathogen?",
+    "output_ground": "What system gives an organism long lasting immunity against a pathogen?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When did no what year did Hoesung Lee become President?",
+    "output_pred": "What year did Hoesung Lee become President?",
+    "output_ground": "What year did Hoesung Lee become President?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How did  sorry What was intent of Celeron's expedition?",
+    "output_pred": "What was intent of Celeron's expedition?",
+    "output_ground": "What was intent of Celeron's expedition?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What happens when tyrosinase is expressed at normal, scratch that, low levels?",
+    "output_pred": "What happens when tyrosinase is expressed at low levels?",
+    "output_ground": "What happens when tyrosinase is expressed at low levels?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What helpser er what do partnering and construction management emphasize for the design-build process?",
+    "output_pred": "What do partnering and construction management emphasize for the design-build process?",
+    "output_ground": "What do partnering and construction management emphasize for the design-build process?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the deterrent no main goal of criminal punishment of civil disobedience?",
+    "output_pred": "What is the main goal of criminal punishment of civil disobedients?",
+    "output_ground": "What is the main goal of criminal punishment of civil disobedients?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which or rather what are the first buildings the university built knows as today?",
+    "output_pred": "What are the first buildings the university built knows as today?",
+    "output_ground": "What are the first buildings the university built knows as today?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What does er uh what debate lasts for 55 minutes?",
+    "output_pred": "What debate lasts for 55 minutes?",
+    "output_ground": "What debate lasts for 55 minutes?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What do  no What is the group called that does not agree with government at all?",
+    "output_pred": "What is the group called that does not agree with government at all?",
+    "output_ground": "What is the group called that does not agree with government at all?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Brownlee argues opposition or maybe disobedience can be justified toward what institutions?",
+    "output_pred": "Brownlee argues disobedience can be justified toward what institutions?",
+    "output_ground": "Brownlee argues disobedience can be justified toward what institutions?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Building printing is being researched or rather making it possible to flexibly construct small commercial buildings and private habitations in what amount of time?",
+    "output_pred": "Building printing is making it possible to flexibly construct small commercial buildings and private habitations in what amount of time?",
+    "output_ground": "Building printing is making it possible to flexibly construct small commercial buildings and private habitations in what amount of time?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "The Rhine joins no um forms the border between Liechtenstein no um Austria and what other country?",
+    "output_pred": "The Rhine forms the border between Austria and what other country?",
+    "output_ground": "The Rhine forms the border between Austria and what other country? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What provides respiratory tract secrete antimicrobial peptides no um chemical protection to pathogens?",
+    "output_pred": "What provides chemical protection to pathogens?",
+    "output_ground": "What provides chemical protection to pathogens?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What was er when was Zia-ul-Haq born?",
+    "output_pred": "When was Zia-ul-Haq born?",
+    "output_ground": "When was Zia-ul-Haq born?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which timeline is further expanded in the second scale or make that the fourth scale?",
+    "output_pred": "What timeline is further expanded in the fourth scale?",
+    "output_ground": "Which timeline is further expanded in the fourth scale?",
+    "bleu": 0.8801117367933934
+  },
+  {
+    "input_ques": "What network was directed no designed by the french?",
+    "output_pred": "What network was designed by the french?",
+    "output_ground": "What network was designed by the french ",
+    "bleu": 0.8408964152537145
+  },
+  {
+    "input_ques": "How  is packet switching characterized no wait just tell me how much bandwidth is dedicated for each communication session?",
+    "output_pred": "How much bandwidth is dedicated for each communication session?",
+    "output_ground": "How much bandwidth is dedicated for each communication session?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How was the no uh make that when was  the Gerald Ratner Athletics Center constructed?",
+    "output_pred": "When was the Gerald Ratner Athletics Center constructed?",
+    "output_ground": "When was the Gerald Ratner Athletics Center constructed?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What type of rates, uh no, actually I want to ask what decreases with the increase of income inequality?",
+    "output_pred": "What decreases with the increase of income inequality?",
+    "output_ground": "What decreases with the increase of income inequality?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What was or make that who was made rich and prosperous prior to World War I?",
+    "output_pred": "Who was made rich and prosperous prior to World War I?",
+    "output_ground": "Who was made rich and prosperous prior to World War 1",
+    "bleu": 0.8070557274927982
+  },
+  {
+    "input_ques": "Colonialism is no imperialism is confused with what other term?",
+    "output_pred": "Imperialism is confused with what other term?",
+    "output_ground": "Imperialism is confused with what other term?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which or no make that what animal sometimes swims in the Rhine?",
+    "output_pred": "What animal sometimes swims in the Rhine?",
+    "output_ground": "What animal sometimes swims in the Rhine?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which organization covers the cost of the Prime-minister sorry I mean President of the IPCC?",
+    "output_pred": "What organization covers the cost of the President of the IPCC?",
+    "output_ground": "Which organization covers the cost of the President of the IPCC?",
+    "bleu": 0.9036020036098448
+  },
+  {
+    "input_ques": "Secular Arab nationalism was blamed for both the defeat of Arab troops as well as what type of stagnation no sorry Secular Arab nationalism blamed for in addition to it's success?",
+    "output_pred": "Secular Arab nationalism blamed for in addition to its success as well as what type of stagnation?",
+    "output_ground": "Secular Arab nationalism was blamed for both the success of Arab troops as well as what type of stagnation?",
+    "bleu": 0.4547900039222725
+  },
+  {
+    "input_ques": "When did the Roman empire accept as her Germanic frontier the water-boundary of the Rhine make that fall?fall?",
+    "output_pred": " When did the Roman empire fall?",
+    "output_ground": "When did the Roman empire fall?",
+    "bleu": 1.0
+  },
+  {
+    "AVG_BLEU": 0.09480560108343412
+  }
+]

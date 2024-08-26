@@ -1,0 +1,605 @@
+[
+  {
+    "input_ques": "Who did no What did the government want Thoreau to do?",
+    "output_pred": "What did the government want Thoreau to do?",
+    "output_ground": "What did the government want Thoreau to do?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What makes the Bank of America Tower or wait the Wells Fargo Center stand out?",
+    "output_pred": "What makes the Wells Fargo Center stand out?",
+    "output_ground": "What makes the Wells Fargo Center stand out?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What was the Colonia Agrippina's original empire, sorry, name?",
+    "output_pred": "What was the Colonia Agrippina's original name?",
+    "output_ground": "What was the Colonia Agrippina's original name?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Extended authorization limitations, no sorry networking benefits helped those that could not connect to what platform?",
+    "output_pred": "Extended authorization networking benefits helped those that could not connect to what platform?",
+    "output_ground": "Extended networking benefits helped those that could not connect to what platform? ",
+    "bleu": 0.855526185871245
+  },
+  {
+    "input_ques": "What is the no make that who is the emphasis on when there is a private finance initiative?",
+    "output_pred": "Who is the emphasis on when there is a private finance initiative?",
+    "output_ground": "Who is the emphasis on when there is a private finance initiative?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What dynasties reflected no inspired the Chinese-like elements of Kublai's government?",
+    "output_pred": " What dynasties inspired the Chinese-like elements of Kublai's government?",
+    "output_ground": "What dynasties inspired the Chinese-like elements of Kublai's government?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the density of all primes compatible with a modulo 8 or wait 9?",
+    "output_pred": "What is the density of all primes compatible with a modulo 9?",
+    "output_ground": "What is the density of all primes compatible with a modulo 9?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When or uh what did European empires rely on to supply them with resources?",
+    "output_pred": "What did European empires rely on to supply them with resources?",
+    "output_ground": "What did European empires rely on to supply them with resources?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What did Wahl and Ammann no no Karlen and Singer present to the US senate?",
+    "output_pred": "What did Karlen and Singer present to the US senate?",
+    "output_ground": "What did Karlen and Singer present to the US senate?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the current status of Schuenemann's study no scratch that I mean the Haensch study?",
+    "output_pred": "What is the current status of the Haensch study?",
+    "output_ground": "What is the current status of the Haensch study?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What drove residents or who was responsible rather for the new building projects in Jacksonville?",
+    "output_pred": "Who was responsible for the new building projects in Jacksonville?",
+    "output_ground": "Who was responsible for the new building projects in Jacksonville?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who normally supervises the largest construction projects I mean inconvenience to the public?",
+    "output_pred": "Who normally inconvenience to the public?",
+    "output_ground": "Who normally supervises inconvenience to the public?",
+    "bleu": 0.6129752413741056
+  },
+  {
+    "input_ques": "Who were the Chinese actually the Samuron?",
+    "output_pred": " Who were the Samuron?",
+    "output_ground": "Who were the Samuron?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "A 60-minute long \\\"Question Time\\\" takes place at where no sorry what time?",
+    "output_pred": "What time does a 60-minute long \"Question Time\" take place?",
+    "output_ground": "A 60-minute long \"Question Time\" takes place at what time?",
+    "bleu": 0.515308162434768
+  },
+  {
+    "input_ques": "How many times did plague occur in Paris no sorry Venice?",
+    "output_pred": "How many times did plague occur in Venice?",
+    "output_ground": "How many times did plague occur in Venice?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What does signal protocol uh no connection orientation require?",
+    "output_pred": "What does connection orientation require? ",
+    "output_ground": "What does connection orientation require",
+    "bleu": 0.7598356856515925
+  },
+  {
+    "input_ques": "What happens no tell me what is not an important role of the immune system?",
+    "output_pred": "What is not an important role of the immune system?",
+    "output_ground": "What is not an important role of the immune system?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Whom no sorry Who credited Paul Baran for his development?",
+    "output_pred": "Who credited Paul Baran for his development?",
+    "output_ground": "Who credited Paul Baran for his development? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What departments rather fields may pharmacy informatics not work in?",
+    "output_pred": "What fields may pharmacy informatics not work in?",
+    "output_ground": "What fields may pharmacy informatics not work in?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who are U.S laws, uh make that, FDA laws against importing medications not aimed at?",
+    "output_pred": "Who are FDA laws against importing medications not aimed at?",
+    "output_ground": "Who are FDA laws against importing medications not aimed at?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is key to getting the skills needed for high demand jobs no wait tell me what are those with lower incomes more likely to have in order to prepare for the future?",
+    "output_pred": "What are those with lower incomes more likely to have in order to prepare for the future?",
+    "output_ground": "What are those with lower incomes more likely to have in order to prepare for the future?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What structure er uh rather elements make up a room edition?",
+    "output_pred": "Elements make up a room edition?",
+    "output_ground": "What elements make up a room edition?",
+    "bleu": 0.7013967267997694
+  },
+  {
+    "input_ques": "Who is the university rahter what academic body of it is made up of how many divisions of graduate?",
+    "output_pred": "What academic body of the university is made up of how many divisions of graduate?",
+    "output_ground": "The academic body of the university is made up of how many divisions of graduate?",
+    "bleu": 0.9306048591020997
+  },
+  {
+    "input_ques": "What territory was ceded to Spain ugh should say France?",
+    "output_pred": "What territory was ceded to France?",
+    "output_ground": "What territory was ceded to France?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What fell no wait grew on a global scale as a result of non-imperialism?",
+    "output_pred": " What grew on a global scale as a result of non-imperialism?",
+    "output_ground": "What grew on a global scale as a result of non-imperialism?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "#VALUE!",
+    "output_pred": "What is the name of the process by which a patient's immune system recognizes foreign antigens?",
+    "output_ground": "What is circuit switching characterized by",
+    "bleu": 0.0
+  },
+  {
+    "input_ques": "How many students enrolled at the College during the spring of 2011, actually, in 2014?",
+    "output_pred": "How many students enrolled at the College during the spring of 2014?",
+    "output_ground": "How many students enrolled at the College during the spring of 2014?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which equation no wait What equation is torque like regarding velocity?",
+    "output_pred": "What equation is torque like regarding velocity?",
+    "output_ground": "What equation is torque like regarding velocity?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the largest sensory feature of the cilia no the ctenophora rather?",
+    "output_pred": "What is the largest sensory feature of the ctenophora?",
+    "output_ground": "What is the largest sensory feature of the ctenophora?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What chess uh who established the psychological school of conservative international relations?",
+    "output_pred": "Who established the psychological school of conservative international relations?",
+    "output_ground": "Who established the psychological school of conservative international relations?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How are er what offers a conceptual definition of force?",
+    "output_pred": "What offers a conceptual definition of force?",
+    "output_ground": "What offers a conceptual definition of force?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What was the demanded neigh the primary race of students attending Christian academies after the Brown decision?",
+    "output_pred": "What was the primary race of students attending Christian academies after the Brown decision?",
+    "output_ground": "What was the primary race of students attending Christian academies after the Brown decision?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When was the migrants from Europe oh no when was the deportation of Canadians?",
+    "output_pred": "When was the deportation of Canada?",
+    "output_ground": "When was the deportation of Canadians?",
+    "bleu": 0.6434588841607617
+  },
+  {
+    "input_ques": "What allows for responses that are not tailored to a specific pathogen or rather tell me what immune response is not antigen-specific?",
+    "output_pred": "What immune response is not antigen-specific?",
+    "output_ground": "What immune response is not antigen-specific?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where did the 1343 or let me say the black death originate?",
+    "output_pred": "Where did the black death originate?",
+    "output_ground": "Where did the black death originate?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What did Iqbal fear would fear would weaken I mean strengthen the spiritual foundations of Islam and Muslim society?",
+    "output_pred": " What did Iqbal fear would strengthen the spiritual foundations of Islam and Muslim society?",
+    "output_ground": "What did Iqbal fear would strengthen the spiritual foundations of Islam and Muslim society?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who founded, no better yet, who is the founder of the Chicago Cubs and author of the first management accounting text book?",
+    "output_pred": "Who is the founder of the Chicago Cubs and author of the first management accounting text book?",
+    "output_ground": "Who is the founder of the Chicago Cubs and author of the first management accounting text book?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What Microsoft err I mean Goldman Sachs CEO is also an alumni of the University of Chicago?",
+    "output_pred": "What Goldman Sachs CEO is also an alumni of the University of Chicago?",
+    "output_ground": "What Goldman Sachs CEO is also an alumni of the University of Chicago?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which is What is the name of the winter festival held in January that is based on fitness?",
+    "output_pred": "What is the name of the winter festival held in January that is based on fitness?",
+    "output_ground": "What is the name of the winter festival held in January that is based on fitness? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is not due to the average earning for an architect umm rather a professional?",
+    "output_pred": "What is not due to the average earning for a professional?",
+    "output_ground": "What is not due to the average earning for a professional?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How did or no make that when did Gou's calendar become the official calendar of the Yuan?",
+    "output_pred": "When did Gou's calendar become the official calendar of the Yuan?",
+    "output_ground": "When did Gou's calendar become the official calendar of the Yuan?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where is no What was the Rhine considered to invaders in WWII?",
+    "output_pred": "What was the Rhine considered to invaders in WWII?",
+    "output_ground": "What was the Rhine considered to invaders in WWII?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which method no sorry what method do Muslim run schools use in their curriculum?",
+    "output_pred": "What method do Muslim run schools use in their curriculum?",
+    "output_ground": "What method do Muslim run schools use in their curriculum?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where did the Kublai Khan no the Grand Canal not begin?",
+    "output_pred": " Where did the Grand Canal not begin?",
+    "output_ground": " Where did the Grand Canal not begin?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who or wait what is considered the epitome of the Rhine romanticism?",
+    "output_pred": "What is considered the epitome of the Rhine romanticism?",
+    "output_ground": "What is considered the epitome of the Rhine romanticism? ",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which countries, actually, what are the two symbols that signify pharmacy in English-speaking countries?",
+    "output_pred": "What are the two symbols that signify pharmacy in English-speaking countries?",
+    "output_ground": "What are the two symbols that signify pharmacy in English-speaking countries?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What period ugh erm how long did the Ice Ages last?",
+    "output_pred": "How long did the Ice Ages last?",
+    "output_ground": "How long did the Ice Ages last?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where umm sorry, what is peer to peer?",
+    "output_pred": "What is peer to peer?",
+    "output_ground": "What is peer to peer?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "between the Bingen and Bonn, What flows ?",
+    "output_pred": "What flows between the Bingen and Bonn?",
+    "output_ground": "What flows between the Bingen and Bonn?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When is the legal condition no wait What are some examples of legal considerations for an addition?",
+    "output_pred": "What are some examples of legal considerations for an addition?",
+    "output_ground": "What are some examples of legal considerations for an addition?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where did the Kublai no the Song dynasty continue be peaceful with Kublai?",
+    "output_pred": " Where did the Song dynasty continue be peaceful with Kublai?",
+    "output_ground": "Where did the Song dynasty continue be peaceful with Kublai?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How large was Fresno er uh Woodward's estate in total?",
+    "output_pred": "How large was Woodward's estate in total?",
+    "output_ground": "How large was Woodward's estate in total?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How many soldiers were in each Tumen or rather how many armies?",
+    "output_pred": "How many armies were in each Tumen?",
+    "output_ground": "How many armies were in each Tumen?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What do cilia use their bands errr I meant bodies for?",
+    "output_pred": "What do cilia use their bodies for?",
+    "output_ground": "What do cilia use their bodies for?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "In what month or no year were the Black Death victims in East Smithfield discovered?",
+    "output_pred": "In what year were the Black Death victims in East Smithfield discovered?",
+    "output_ground": "In what year were the Black Death victims in East Smithfield discovered?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When did or actually tell me what theory did Niels Jerne formulate?",
+    "output_pred": "What theory did Jerne formulate?",
+    "output_ground": "What theory did Niels Jerne formulate?",
+    "bleu": 0.0
+  },
+  {
+    "input_ques": "The sieve of Eratosthenes would not be valid if what were true no the sieve of Euler?",
+    "output_pred": "The sieve of Eratosthenes would not be valid if what were true?",
+    "output_ground": "The sieve of Euler would not be valid if what were true?",
+    "bleu": 0.7611606003349892
+  },
+  {
+    "input_ques": "What organization no denomination are the schools run by Academic Colleges Group?",
+    "output_pred": "What denomination are the schools run by Academic Colleges Group?",
+    "output_ground": "What denomination are the schools run by Academic Colleges Group?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which direction did the English Channel or no the Rhine flow during the last cold phase?",
+    "output_pred": "What direction did the Rhine flow during the last cold phase?",
+    "output_ground": "Which direction did the Rhine flow during the last cold phase?",
+    "bleu": 0.9036020036098448
+  },
+  {
+    "input_ques": "The minimum amount of time no I meant the acts of what government begin with a conventional enacting formula?",
+    "output_pred": "The acts of what government begin with a conventional enacting formula?",
+    "output_ground": "The acts of what government begin with a conventional enacting formula?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the second-longest no the smallest nation that the Rhine runs through?",
+    "output_pred": "What is the smallest nation that the Rhine runs through?",
+    "output_ground": "What is the smallest nation that the Rhine runs through?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is the primary defense or uh goal of pleading not guilty when arrested for Civil Disobedience?",
+    "output_pred": "What is the goal of pleading not guilty when arrested for Civil Disobedients?",
+    "output_ground": "What is the primary goal of pleading not guilty when arrested for Civil Disobedience?",
+    "bleu": 0.6646817937381975
+  },
+  {
+    "input_ques": "How much did Forbes donate to charity in 2011 erm 2009?",
+    "output_pred": "How much did Forbes donate to charity in 2009?",
+    "output_ground": "How much did Forbes donate to charity in 2009?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "In what decade was the asthenosphere or rather seafloor spreading discovered?",
+    "output_pred": "In what decade was the seafloor spreading discovered?",
+    "output_ground": "In what decade was seafloor spreading discovered? ",
+    "bleu": 0.5969491792019646
+  },
+  {
+    "input_ques": "Which date or rather what was the source of the mistake?",
+    "output_pred": "What was the source of the mistake?",
+    "output_ground": "What was the source of the mistake?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What does, oh um actually, how is information charged for packet switching?",
+    "output_pred": "How is information charged for packet switching? ",
+    "output_ground": "How is information charged for packet switching?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Pharmacy technicians are limited to whose or no make that what responsibilities ?",
+    "output_pred": "Pharmacy technicians are limited to what responsibilities?",
+    "output_ground": "What responsibilities are pharmacy technicians limited to?",
+    "bleu": 0.0
+  },
+  {
+    "input_ques": "What in knot theory is a prime knot how can a knot be distinctively indicated?",
+    "output_pred": "How can a knot be distinctively indicated?",
+    "output_ground": "How can any knot be distinctively indicated?",
+    "bleu": 0.5946035575013605
+  },
+  {
+    "input_ques": "What does it, well actually, what type of value would the zeta function have if there were finite primes?",
+    "output_pred": "What type of value would the zeta function have if there were finite primes?",
+    "output_ground": "What type of value would the zeta function have if there were finite primes?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Besides the prime elements no the um analytic property of numbers, what other property of numbers does number theory focus on?",
+    "output_pred": "Besides the analytic property of numbers, what other property of numbers does number theory focus on?",
+    "output_ground": "Besides the analytic property of numbers, what other property of numbers does number theory focus on?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What type or actually which direction are the two city limits parks located?",
+    "output_pred": "Which direction are the two city limits parks located?",
+    "output_ground": "The two city limits parks are located in which direction?",
+    "bleu": 0.2826657746622342
+  },
+  {
+    "input_ques": "When Iqbal instead what did Iqbal's Allahabad address inspire?",
+    "output_pred": "What did Iqbal's Allahabad address inspire?",
+    "output_ground": "What did Iqbal's Allahabad address inspire?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What is another name for a private school, doh, a public school?",
+    "output_pred": "What is another name for a public school?",
+    "output_ground": "What is another name for a public school?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What ends near the Rhine no the Millingen aan de Rijn?",
+    "output_pred": "What ends near the Millingen aan de Rijn?",
+    "output_ground": "What ends near the Millingen aan de Rijn?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Whose writing or rather make that what writing inspired the name Great Yuan?",
+    "output_pred": "What writing inspired the name Great Yuan?",
+    "output_ground": "What writing inspired the name Great Yuan?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What does communication session contrast with no um Packet switching?",
+    "output_pred": "Packet Switching contrast with what? ",
+    "output_ground": "What does Packet switching contrast with ",
+    "bleu": 0.0
+  },
+  {
+    "input_ques": "What is the decreased rates of self-employment based on or actually I mean increased?",
+    "output_pred": "What is the increased rates of self-employment based on?",
+    "output_ground": "What is the increased rates of self-employment based on?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How many residents does the Carpathian Mountains no the greater metropolitan area have?",
+    "output_pred": "How many residents does the greater metropolitan area have?",
+    "output_ground": "How many residents does the greater metropolitan area have?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where was no I mean when was Dali defended by the Yuan?",
+    "output_pred": "When was Dali defended by the Yuan?",
+    "output_ground": "When was Dali defended by the Yuan?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How did no when did Robert Hutchins become the first Heisman Trophy winner?",
+    "output_pred": "When did Robert Hutchins become the first Heisman Trophy winner?",
+    "output_ground": "When did Robert Hutchins become the first Heisman Trophy winner?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Nativit\\u00e9 du Seigneur no no Messiaen says that composition with prime numbers was inspired by what?",
+    "output_pred": "Messiaen says that composition with prime numbers was inspired by what?",
+    "output_ground": "Messiaen says that composition with prime numbers was inspired by what?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What continues to move with a zero velocity nope not that but what force directly opposes the force applied to move an object across a surface?",
+    "output_pred": "What force directly opposes the force applied to move an object across a surface?",
+    "output_ground": "What directly opposes the force applied to move an object across a surface?",
+    "bleu": 0.8666415730847504
+  },
+  {
+    "input_ques": "Who no I mean what are considered less accurately to be \\\"fundamental interactions\\\"?",
+    "output_pred": "What are considered less accurately to be \"fundamental interactions\"?",
+    "output_ground": "What are considered less accurately to be \"fundamental interactions\"?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What kind um what is the equality of forces between two objects exerting force on each other?",
+    "output_pred": "What is the equality of forces between two objects exerting force on each other?",
+    "output_ground": "What is the equality of forces between two objects exerting force on each other??",
+    "bleu": 0.9355069850316178
+  },
+  {
+    "input_ques": "What is the goal of non-Islamist groups like al-Qaeda, uh no, Hezbollah and Hamas?",
+    "output_pred": " What is the goal of non-Islamic groups like Hezbollah and Hamas?",
+    "output_ground": " What is the goal of non-Islamist groups like Hezbollah and Hamas?",
+    "bleu": 0.7348889200874658
+  },
+  {
+    "input_ques": "What does the presiding officer put motions on the questions no no what do they say if there is no dissent?",
+    "output_pred": "What do the presiding officers put motions on the questions if there is no dissent?",
+    "output_ground": "If there is no dissent, the Presiding Officer says what?",
+    "bleu": 0.16943571815930883
+  },
+  {
+    "input_ques": "What Book  no sorry What two women refused to commit perjury in the Book of Exodus?",
+    "output_pred": "What two women refused to commit perjury in the Book of Exodus?",
+    "output_ground": "What two women refused to commit perjury in the Book of Exodus?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "When a commission um i mean what issues were addressed in the Treaty of Aix-la-Chapelle?",
+    "output_pred": "What issues were addressed in the Treaty of Aix-la-Chapelle?",
+    "output_ground": "What issues were addressed in the Treaty of Aix-la-Chapelle?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "How far is Warsaw from the Baltic Sea no sorry how many people live in Carpathia?",
+    "output_pred": "How many people live in Carpathia?",
+    "output_ground": "How many people live in Carpathia?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where was no make that what was the Bell System?",
+    "output_pred": "What was the Bell System?",
+    "output_ground": "What was the Bell System?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What theory or rather which theory does not justify imperialism in part?",
+    "output_pred": " Which theory does not justify imperialism in part?",
+    "output_ground": " Which theory does not justify imperialism in part?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Which famous no What did the prosecution propose in Ghandi's trial?",
+    "output_pred": "What did the prosecution propose in Ghandi's trial?",
+    "output_ground": "What did the prosecution propose in Ghandi's trial?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who discovered the AA Millikan, oh no I'm sorry, the AA Michelson effect?",
+    "output_pred": "Who discovered the AA Michelson effect?",
+    "output_ground": "Who discovered the AA Michelson effect?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "The United Kingdom uh shoot uh Scotland Act enabled the Spanish Parliament to pass what?",
+    "output_pred": "The Scotland Act 1988 enabled the Scottish Parliament to pass what?",
+    "output_ground": "The Scotland Act enabled the Spanish Parliament to pass what?",
+    "bleu": 0.46595384151899627
+  },
+  {
+    "input_ques": "Who, no I mean what enables the Scottish Parliament to scrutinize the government?",
+    "output_pred": "What enables the Scottish Parliament to scrutinize the government?",
+    "output_ground": "What enables the Scottish Parliament to scrutinize the government?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What was the number no percentage of a female householder with no husband present?",
+    "output_pred": "What was the percentage of a female householder with no husband present?",
+    "output_ground": "What was the percentage of a female householder with no husband present?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Who founded actually I mean who revolted in the Ispah Rebellion?",
+    "output_pred": "Who revolted in the Ispah Rebellion?",
+    "output_ground": "Who revolted in the Ispah Rebellion?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "Where was the Rhine or rather the upper canal regulation of the Rhine?",
+    "output_pred": "Where was the upper canal regulation of the Rhine?",
+    "output_ground": "Where is the upper canal regulation of the Rhine?",
+    "bleu": 0.7825422900366437
+  },
+  {
+    "input_ques": "When is the address information not transferred to each packet no no each node?",
+    "output_pred": "When is the address information not transferred to each node?",
+    "output_ground": "When is the address information not transferred to each node?",
+    "bleu": 1.0
+  },
+  {
+    "input_ques": "What type of, no let me ask, what is the first line of defense against pathogens that prevents them from entering an organism?",
+    "output_pred": "What is the first line of defense against pathogens that prevents them from entering an organism?",
+    "output_ground": "What is the first line of defense against pathogens that prevents them from entering an organism?",
+    "bleu": 1.0
+  },
+  {
+    "AVG_BLEU": 0.08977773798236173
+  }
+]
