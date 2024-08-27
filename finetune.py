@@ -27,19 +27,19 @@ import os
 # %%
 @dataclass
 class DataClass:
-    MODEL_PATH = "Qwen/Qwen2-0.5B-Instruct"      # Qwen/Qwen2-0.5B
+    MODEL_PATH = "Qwen/Qwen2-0.5B-Instruct"
     MAX_LENGTH = 96
     EPOCH = 3
     LORA_RANK = 16
-    LORA_ALPHA = 4 * LORA_RANK
+    LORA_ALPHA = 4 * LORA_RANK          # 2 * LORA_RANK
     LORA_DROPOUT = 0.5
     LORA_MODULES = ["q_proj", "k_proj", "v_proj", "o_proj",
                     "gate_proj", "up_proj", "down_proj",
                     "lm_head"]
     LR = 5e-5
     DEVICE = 'cuda' if torch.cuda.is_available() else 'mps'
-    USE_LORA = False
-    MODEL_SAVE_FOLDER = os.path.join('weights', 'LORA' if USE_LORA else 'RegularFinetune')
+    USE_LORA = True
+    MODEL_SAVE_FOLDER = os.path.join('smol_weights', 'LORA' if USE_LORA else 'RegularFinetune')
     
 
 # Macbook MPS
@@ -86,7 +86,7 @@ if DataClass.USE_LORA:
     print("Using LORA instead of full-finetuning")
     # Freezing model weights
     model.requires_grad = False
-
+    
     lora_config = LoraConfig(
         r = DataClass.LORA_RANK,
         lora_alpha = DataClass.LORA_ALPHA,
@@ -203,6 +203,7 @@ training_args = TrainingArguments(
     output_dir = DataClass.MODEL_SAVE_FOLDER,
     overwrite_output_dir=True,
     # fp16=True,
+    save_only_model=True,               # Only saving model, unresumable
     per_device_eval_batch_size=1,
     learning_rate=DataClass.LR,
     num_train_epochs=DataClass.EPOCH,
@@ -213,7 +214,7 @@ training_args = TrainingArguments(
     save_strategy='steps',
     save_steps=7182//8,
     push_to_hub=False,
-    weight_decay=0.9,
+    weight_decay=0.9,           # Overfit?
     report_to=[]
 )
 
