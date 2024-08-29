@@ -4,7 +4,7 @@ The task of the project is to rewrite a question in a way that removes the irrel
 
 
 ## Model Information
-A small language model (SLM) is used to solve this task. `Qwen-2 0.5B` has been used to solve this task. Being a SLM, the Qwen-2 can be used to perform 'regular finetune' instead of paremeter efficient finetuning (example: LORA, QLORA). My experiments show that 'regular finetune' is exceptionally better than LORA.
+A small language model (SLM) is used to solve this task. `Qwen-2:0.5b` has been used to solve this task. Being a SLM, the Qwen-2 can be used to perform 'regular finetune' instead of paremeter efficient finetuning (example: LORA, QLORA). My experiments show that 'regular finetune' is exceptionally better than LORA.
 
 ## Memory Requirement
 
@@ -16,13 +16,13 @@ For industrial inference `Q8 (8-bit quantization)` could be one of the best opti
 
 The finetuning was done with 3 iterations. Below is the loss of train and validate dataset:
 
-Epoch | Train Loss | Valid Loss |
---- | --- | --- 
-1 | 0.62 | 0.44
-2 | 0.41 | 0.59
-3 | 0.28 | 0.64
+Epoch | Train Loss | Valid Loss | LR
+--- | --- | --- | ---
+1 | 0.672 | 0.642 | 3.33<sup>-5</sup>
+2 | 0.601 | 0.625 | 1.67<sup>-5</sup>
+3 | 0.548 | 0.626 | 1.11<sup>-7</sup>
 
-Epoch 2 & 3 shows the sign of overfitting in training dataset (as training loss is less than validation loss). Therefore, the weights of Epoch 1 was used for the final experiment. 
+Epoch 3 shows the sign of overfitting in training dataset (as training loss is less than validation loss). Therefore, the weights at the end of Epoch 2 was used for the final experiment. 
 
 ## Evaluation
 
@@ -30,9 +30,13 @@ The model was evaluated with BLEU metric. The result is given below:
 
 Train Data | Validation Data
 --- | ---
-~0.92 | 0.871
+0.889 | 0.861
 
-Based on the evaluation, it can be assumed that the trained model is not overconfident on the training data, as it contains a balance of performance in the unseen validation data. Note that more evaluation techniques could be used.
+Based on the evaluation, it can be validated that the trained model is not overconfident on the training data, as it contains a balance of performance in the unseen validation data. Note that more evaluation techniques could be used. Also, more ground examples could change the norm of the result.
+
+## Steps for Improvement
+
+As this work used an 0.5B SLM, using a higher parameter model would increase performance (Example: `Phi-3.5:3.8b`, `LLama-3.1:8b`). I did further experiment with smaller models (`smollm:135m`) and verified that smaller models shows less linguistic understanding. This is already evaluated by the LLM scaling laws.
 
 ## Directory Structure
 
@@ -53,7 +57,7 @@ The directory structure with explanation is given as follows:
 ├── readme.md
 └── weights
     ├── LORA
-    │   └── checkpoint-897
+    │   └── checkpoint-1794
     │       ├── README.md
     │       ├── adapter_config.json
     │       ├── adapter_model.safetensors
