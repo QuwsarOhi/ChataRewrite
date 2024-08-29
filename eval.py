@@ -10,23 +10,33 @@ from transformers import (
 
 import json
 import evaluate
-
-# %%
 from dataclasses import dataclass
 import os
 
+# %%
+def get_device():
+    device = 'cpu'
+    if torch.cuda.is_available():
+        device = 'cuda'
+    # Macbook MPS
+    elif torch.backends.mps.is_available():
+        device = 'mps'
+    return device
+
 @dataclass
 class DataClass:
-    MODEL_PATH = ["weights/RegularFinetune/checkpoint-897", "Qwen/Qwen2-0.5B-Instruct"][0]
+    MODEL_PATH = "Qwen/Qwen2-0.5B-Instruct"
     MAX_LENGTH = 96
     EPOCH = 3
     LORA_RANK = 2
-    LORA_ALPHA = 2 * LORA_RANK
+    LORA_ALPHA = 4 * LORA_RANK
     LORA_DROPOUT = 0.5
-    LORA_MODULES = ["o_proj", "qjv_proj", "gate_up_proj"]
+    LORA_MODULES = ["q_proj", "k_proj", "v_proj", "o_proj",
+                    "gate_proj", "up_proj", "down_proj",
+                    "lm_head"]
     LR = 5e-5
-    MODEL_SAVE_FOLDER = '/content/drive/MyDrive/weights'
-    DEVICE = 'cuda' if torch.cuda.is_available() else 'mps'
+    ADAPTER_PATH = 'weights/LORA/checkpoint-1794'
+    DEVICE = get_device()
 
 # Macbook MPS
 if DataClass.DEVICE == 'mps':
@@ -68,6 +78,11 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 # %%
+if DataClass.ADAPTER_PATH:
+    model.load_adapter(DataClass.ADAPTER_PATH)
+    print("Adapter loaded from:", DataClass.ADAPTER_PATH)
+
+# %%
 def inference(input_text):
     input_ids = tokenizer(input_text, return_tensors="pt")
     outputs = model.generate(
@@ -102,13 +117,13 @@ with open("dataset/valid.json", "r") as f:
     valid_data = json.load(f)
 
 # %%
-for i in range(10):
-    q = valid_data[i]['input_disfluent']
-    a = valid_data[i]['output_original']
-
-    print("LLM:", prompter(q))
-    print("ANS:", a)
-    print('---')
+# for i in range(10):
+#     q = valid_data[i]['input_disfluent']
+#     a = valid_data[i]['output_original']
+#     
+#     print("LLM:", prompter(q))
+#     print("ANS:", a)
+#     print('---')
 
 # %%
 bleu_metric = evaluate.load("bleu")
@@ -149,7 +164,7 @@ for idx, data in enumerate(train_data):
     model_io.append({"input_ques": ques, "output_pred": pred, "output_ground": ref, "bleu": bleu})
     print(f"\rData {idx+1}, BLEU: {tot_bleu/(idx+1)}", end="")
 
-model_io.append({"AVG_BLEU": tot_bleu/len(valid_data)})
+model_io.append({"AVG_BLEU": tot_bleu/len(train_data)})
 with open("outputs/train_io.json", "w") as f:
     json.dump(model_io, f, indent=2)
 

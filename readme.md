@@ -58,10 +58,15 @@ The directory structure with explanation is given as follows:
 ├── eval.py             # Python code to run the metrics on the trained LLM output (converted)
 ├── finetune.ipynb      # Jupyter notebook to train LLM
 ├── finetune.py         # Python code to run the train LLM (converted)
-├── outputs
-│   ├── train_io.json
-│   └── valid_io.json
+├── inference.ipynb     # Jupyter notebook to get result form trained LLM
+├── inference.py        # Jupyter notebook to get result form trained LLM (converted)
 ├── readme.md
+├── outputs
+│   ├── train_io.json   # Produced BLEU score on train data (generated from eval.py/ipynb)
+│   ├── valid_io.json   # Produced BLEU score on test data (generated from eval.py/ipynb)
+│   └── valid_io.json   # Inference output (generated from inference.py/ipynb)
+├── inference.json      # Inference input questions as json list for testing
+├── task-description.pdf
 └── weights
     └── LORA
         ├── checkpoint-1794     # The saved weights from finetuning
@@ -81,3 +86,7 @@ The directory structure with explanation is given as follows:
         │   └── vocab.json
         |
 ```
+
+## Model Inference
+
+`inference.ipynb/.py` can be used to test the finetuned model. The input questions should be pasted in `inference.json` file as list. The produced outputs are saved in `outputs/inference_output.json` file.

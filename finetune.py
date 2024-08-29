@@ -25,9 +25,18 @@ from dataclasses import dataclass
 import os
 
 # %%
+def get_device():
+    device = 'cpu'
+    if torch.cuda.is_available():
+        device = 'cuda'
+    # Macbook MPS
+    elif torch.backends.mps.is_available():
+        device = 'mps'
+    return device
+
 @dataclass
 class DataClass:
-    MODEL_PATH = "Qwen/Qwen2-0.5B-Instruct"
+    MODEL_PATH = "Qwen/Qwen2-0.5B-Instruct" # Model will be downloaded from Huggingface
     MAX_LENGTH = 96
     EPOCH = 3
     LORA_RANK = 16
@@ -37,16 +46,15 @@ class DataClass:
                     "gate_proj", "up_proj", "down_proj",
                     "lm_head"]
     LR = 5e-5
-    DEVICE = 'cuda' if torch.cuda.is_available() else 'mps'
+    DEVICE = get_device()
     USE_LORA = True
-    MODEL_SAVE_FOLDER = os.path.join('smol_weights', 'LORA' if USE_LORA else 'RegularFinetune')
-    
+    MODEL_SAVE_FOLDER = 'LORA' if USE_LORA else 'RegularFinetune'
 
-# Macbook MPS
 if DataClass.DEVICE == 'mps':
     os.environ['PYTORCH_ENABLE_MPS_FALLBACK'] = '1'
     # Optional: Turnning off tokenizer parallelism to avoid stuck
     # os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 
 # %%
 model_config = AutoConfig.from_pretrained(
@@ -80,6 +88,8 @@ model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=True,
     # quantization_config=quant_config
 )
+
+# model = peft.prepare_model_for_kbit_training(model)
 
 # %%
 if DataClass.USE_LORA:
