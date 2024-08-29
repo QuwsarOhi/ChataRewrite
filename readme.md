@@ -38,54 +38,46 @@ Based on the evaluation, it can be validated that the trained model is not overc
 
 As this work used an 0.5B SLM, using a higher parameter model would increase performance (Example: `Phi-3.5:3.8b`, `LLama-3.1:8b`). I did further experiment with smaller models (`smollm:135m`) and verified that smaller models shows less linguistic understanding. This is already evaluated by the LLM scaling laws.
 
+## Finetuned Weights
+
+Finetuned weights can be downloaded from the google drive url:
+[Google Drive](https://drive.google.com/file/d/13_P4NyCM4Zw-JcU-aGXxBWuA7d1JhIu2/view?usp=sharing).
+
+The weights should be inside the project directory (as shown in directory structure).
+
 ## Directory Structure
 
 The directory structure with explanation is given as follows:
 
 ```
-.
-├── datamod.ipynb       # Used to convert the dataset JSON file into format that can be used by Huggingface Datasets
-├── dataset
+├── datamod.ipynb       # Used to convert downloaded dataset into huggingface requirement
+├── dataset             # Datasets
 │   ├── train.json
 │   └── valid.json
-├── evaluate.ipynb
-├── finetune.ipynb
-├── finetune.py
+├── eval.ipynb          # Jupyter notebook to run the metrics on the trained LLM output
+├── eval.py             # Python code to run the metrics on the trained LLM output (converted)
+├── finetune.ipynb      # Jupyter notebook to train LLM
+├── finetune.py         # Python code to run the train LLM (converted)
 ├── outputs
 │   ├── train_io.json
 │   └── valid_io.json
 ├── readme.md
 └── weights
-    ├── LORA
-    │   └── checkpoint-1794
-    │       ├── README.md
-    │       ├── adapter_config.json
-    │       ├── adapter_model.safetensors
-    │       ├── added_tokens.json
-    │       ├── merges.txt
-    │       ├── optimizer.pt
-    │       ├── rng_state.pth
-    │       ├── scheduler.pt
-    │       ├── special_tokens_map.json
-    │       ├── tokenizer.json
-    │       ├── tokenizer_config.json
-    │       ├── trainer_state.json
-    │       ├── training_args.bin
-    │       └── vocab.json
-    └── RegularFinetune
-        └── checkpoint-897
-            ├── added_tokens.json
-            ├── config.json
-            ├── generation_config.json
-            ├── merges.txt
-            ├── model.safetensors
-            ├── optimizer.pt
-            ├── rng_state.pth
-            ├── scheduler.pt
-            ├── special_tokens_map.json
-            ├── tokenizer.json
-            ├── tokenizer_config.json
-            ├── trainer_state.json
-            ├── training_args.bin
-            └── vocab.json
+    └── LORA
+        ├── checkpoint-1794     # The saved weights from finetuning
+        │   ├── README.md
+        │   ├── adapter_config.json
+        │   ├── adapter_model.safetensors
+        │   ├── added_tokens.json
+        │   ├── merges.txt
+        │   ├── optimizer.pt
+        │   ├── rng_state.pth
+        │   ├── scheduler.pt
+        │   ├── special_tokens_map.json
+        │   ├── tokenizer.json
+        │   ├── tokenizer_config.json
+        │   ├── trainer_state.json
+        │   ├── training_args.bin
+        │   └── vocab.json
+        |
 ```
